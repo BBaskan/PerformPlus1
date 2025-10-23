@@ -1,0 +1,180 @@
+﻿<Window x:Class="PerformPlus.Views.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="{DynamicResource AdminTitle}"
+        WindowStyle="None"
+        WindowState="Maximized"
+        ResizeMode="NoResize"
+        Background="{DynamicResource MaterialDesignPaper}">
+
+    <DockPanel>
+
+        <materialDesign:ColorZone Mode="PrimaryMid" DockPanel.Dock="Top" Height="60">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{DynamicResource AdminShellTitle}"
+                           FontSize="20" FontWeight="SemiBold"
+                           Foreground="White"
+                           VerticalAlignment="Center"
+                           Margin="16,0"/>
+                <Button Grid.Column="1"
+                        Content="{DynamicResource Logout}"
+                        Style="{StaticResource MaterialDesignFlatButton}"
+                        Foreground="White"
+                        Margin="0,0,16,0"
+                        Click="Logout_Click"/>
+            </Grid>
+        </materialDesign:ColorZone>
+
+
+        <TabControl Margin="16">
+
+            <TabItem Header="{DynamicResource UserManagementTabHeader}">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+
+                        <RowDefinition Height="Auto"/>
+
+                        <RowDefinition Height="Auto"/>
+
+                        <RowDefinition Height="*"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Button Grid.Row="0"
+                            Content="{DynamicResource AddEmployee}"
+                            Style="{StaticResource MaterialDesignRaisedButton}"
+                            Command="{Binding AddEmployeeCommand}"
+                            Margin="0,0,0,8"/>
+                    <Button Grid.Row="1"
+                            Content="{DynamicResource EditEmployee}"
+                            Style="{StaticResource MaterialDesignRaisedButton}"
+                            Command="{Binding EditEmployeeCommand}"
+                            Margin="0,0,0,8"/>
+                    <Button Grid.Row="2"
+                            Content="{DynamicResource DeleteEmployee}"
+                            Style="{StaticResource MaterialDesignRaisedButton}"
+                            Command="{Binding DeleteEmployeeCommand}"
+                            Margin="0,0,0,8"/>
+                    <DataGrid Grid.Row="3"
+                              ItemsSource="{Binding Employees}"
+                              SelectedItem="{Binding SelectedEmployee, Mode=TwoWay}"
+                              AutoGenerateColumns="True"
+                              CanUserAddRows="False"
+                              Margin="0,8,0,0"
+                              Foreground="White"
+                              Background="{DynamicResource MaterialDesignCardBackground}"/>
+                </Grid>
+            </TabItem>
+
+
+            <TabItem Header="{DynamicResource PayrollManagementTabHeader}">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+
+                        <RowDefinition Height="Auto"/>
+
+                        <RowDefinition Height="Auto"/>
+
+                        <RowDefinition Height="Auto"/>
+                        
+                        <RowDefinition Height="Auto"/>
+
+                        <RowDefinition Height="*"/>
+
+                    </Grid.RowDefinitions>
+
+
+                    <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,12">
+                        <DatePicker
+                SelectedDate="{Binding PayrollPeriod}"
+                DisplayDateStart="2000-01-01"
+                DisplayDateEnd="{x:Static sys:DateTime.Now}"
+                Width="140"
+                materialDesign:HintAssist.Hint="{DynamicResource PayrollPeriodHint}" />
+                        <Button
+                Content="{DynamicResource GeneratePayrollButton}"
+                Command="{Binding GeneratePayrollCommand}"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                Margin="12,0,0,0"/>
+
+                        <Button
+                Content="{DynamicResource PayrollSettingsButton}"
+                Command="{Binding OpenPayrollSettingsCommand}"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                Margin="8,0,0,0"/>
+
+                    </StackPanel>
+
+                    <Button Grid.Row="1"
+                Content="{DynamicResource AddPayroll}"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                Command="{Binding AddPayrollCommand}"
+                Margin="0,0,0,8"/>
+                    <Button Grid.Row="2"
+                Content="{DynamicResource EditPayroll}"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                Command="{Binding EditPayrollCommand}"
+                Margin="0,0,0,8"/>
+                    <Button Grid.Row="3"
+                Content="{DynamicResource DeletePayroll}"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                Command="{Binding DeletePayrollCommand}"
+                Margin="0,0,0,8"/>
+                    <Button Grid.Row="4"
+Content="{DynamicResource RecalculatePayroll}"
+Command="{Binding RecalculatePayrollCommand}"
+Style="{StaticResource MaterialDesignOutlinedButton}"
+Margin="0,0,0,8" Background="#FF009688" Foreground="White" />
+
+                    <DataGrid Grid.Row="5"
+          ItemsSource="{Binding Payrolls}"
+          SelectedItem="{Binding SelectedPayroll, Mode=TwoWay}"
+          AutoGenerateColumns="True"
+          CanUserAddRows="False"
+          Foreground="White"
+          Background="{DynamicResource MaterialDesignCardBackground}"
+          RowHeight="35"
+          FontSize="12"
+          HeadersVisibility="Column"
+          Margin="0,8,0,0"
+          HorizontalScrollBarVisibility="Auto"
+          VerticalScrollBarVisibility="Auto"
+          AlternatingRowBackground="#1AFFFFFF"
+          GridLinesVisibility="Horizontal"
+          ColumnHeaderHeight="35"
+          HorizontalAlignment="Stretch">
+
+                       
+                        
+                        <DataGrid.Resources>
+                            <!-- Column header style -->
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="Background" Value="#444"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                            </Style>
+
+                            <!-- Scrollbar style -->
+                            <Style TargetType="ScrollBar" BasedOn="{StaticResource MaterialDesignScrollBar}">
+                                <Setter Property="Background" Value="#333"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Style>
+                        </DataGrid.Resources>
+                    </DataGrid>
+
+
+
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

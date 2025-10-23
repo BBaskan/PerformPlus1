@@ -1,0 +1,91 @@
+﻿<Window x:Class="PerformPlus.Views.UserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:md="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        Title="{DynamicResource UserTasksTitle}"
+        WindowState="Maximized"
+        Background="{DynamicResource MaterialDesignPaper}"
+        WindowStyle="None">
+
+    <DockPanel>
+
+        <!-- Top bar -->
+        <materialDesign:ColorZone Mode="PrimaryMid" DockPanel.Dock="Top" Height="56">
+            <TextBlock Text="{DynamicResource UserShellTitle}"
+                       FontSize="20" FontWeight="SemiBold"
+                       Foreground="White"
+                       VerticalAlignment="Center"
+                       Margin="16,0"/>
+        </materialDesign:ColorZone>
+
+        <!-- Main content -->
+        <Grid Margin="16">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Tasks DataGrid -->
+            <DataGrid Grid.Row="0"
+                      ItemsSource="{Binding MyAssignments}"
+                      SelectedItem="{Binding SelectedAssignment, Mode=TwoWay}"
+                      AutoGenerateColumns="False"
+                      CanUserAddRows="False"
+                      Margin="0,0,0,10">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="{DynamicResource TitleColumn}"
+                                        Binding="{Binding TaskTitle}"/>
+                    <DataGridTextColumn Header="{DynamicResource DueDateColumn}"
+                                        Binding="{Binding DueDate, StringFormat=d}"/>
+                    <DataGridTextColumn Header="{DynamicResource StatusColumn}"
+                                        Binding="{Binding Status}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- Comments & Actions -->
+            <GroupBox Header="{DynamicResource CommentsHeader}" Grid.Row="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Comments List -->
+                    <ListBox Grid.Row="0"
+                             ItemsSource="{Binding Comments}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="4">
+                                    <TextBlock Text="{Binding EmployeeName}" 
+                                               FontWeight="Bold"/>
+                                    <TextBlock Text="{Binding CommentText}" 
+                                               TextWrapping="Wrap"/>
+                                    <TextBlock Text="{Binding CommentedAt, StringFormat=t}" 
+                                               FontStyle="Italic" FontSize="10"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <!-- New Comment + Complete Button -->
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,8,0,0">
+                        <TextBox Width="300"
+                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                                 md:HintAssist.Hint="{DynamicResource AddCommentHint}"
+                                 Text="{Binding NewCommentText, UpdateSourceTrigger=PropertyChanged}"/>
+                        <Button Content="{DynamicResource AddComment}"
+                                Command="{Binding AddCommentCommand}"
+                                Style="{StaticResource MaterialDesignRaisedButton}"
+                                Margin="8,0,0,0"/>
+                        <Button Content="{DynamicResource CompleteTask}"
+                                Command="{Binding CompleteTaskCommand}"
+                                Style="{StaticResource MaterialDesignFlatButton}"
+                                Margin="16,0,0,0"/>
+                    </StackPanel>
+                </Grid>
+            </GroupBox>
+        </Grid>
+    </DockPanel>
+</Window>
+

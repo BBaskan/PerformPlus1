@@ -1,0 +1,86 @@
+﻿<Window x:Class="PerformPlus.Views.LeaderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="{DynamicResource LeaderTitle}"
+        WindowState="Maximized"
+        Background="{DynamicResource MaterialDesignPaper}"
+        WindowStyle="None">
+
+    <DockPanel>
+        <materialDesign:ColorZone Mode="PrimaryMid" DockPanel.Dock="Top" Height="56">
+            <TextBlock Text="{DynamicResource LeaderShellTitle}"
+                       FontSize="20" FontWeight="SemiBold"
+                       Foreground="White"
+                       VerticalAlignment="Center" Margin="16,0"/>
+        </materialDesign:ColorZone>
+
+        <TabControl Margin="16">
+            <!-- Overtime Tab -->
+            <TabItem Header="{DynamicResource OvertimeTabHeader}">
+                <!-- Overtime content as before -->
+            </TabItem>
+
+            <!-- Tasks Tab -->
+            <TabItem Header="{DynamicResource TasksTabHeader}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                        <Button Content="{DynamicResource AssignTask}" 
+                                Command="{Binding AddTaskCommand}"
+                                Style="{StaticResource MaterialDesignRaisedButton}"
+                                Margin="0,0,8,0"/>
+                        <Button Content="{DynamicResource EditTask}" 
+                                Command="{Binding EditTaskCommand}"
+                                Style="{StaticResource MaterialDesignFlatButton}"
+                                Margin="0,0,8,0"/>
+                        <Button Content="{DynamicResource ApproveTask}" 
+                                Command="{Binding ApproveTaskCommand}"
+                                Style="{StaticResource MaterialDesignFlatButton}"/>
+                    </StackPanel>
+
+                    <DataGrid Grid.Row="1"
+                              ItemsSource="{Binding TaskAssignments}"
+                              SelectedItem="{Binding SelectedTask,Mode=TwoWay}"
+                              AutoGenerateColumns="False"
+                              CanUserAddRows="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="{DynamicResource TitleColumn}" Binding="{Binding Title}"/>
+                            <DataGridTextColumn Header="{DynamicResource DueDateColumn}" Binding="{Binding DueDate, StringFormat=d}"/>
+                            <DataGridTextColumn Header="{DynamicResource StatusColumn}" Binding="{Binding Status}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <!-- Comments Section for Selected Task -->
+                    <GroupBox Header="{DynamicResource CommentsHeader}" Grid.Row="2" Margin="0,10,0,0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <ListBox ItemsSource="{Binding SelectedTask.Comments}" 
+                                     DisplayMemberPath="DisplayText"
+                                     Grid.Row="0" Margin="0,0,0,5"/>
+
+                            <StackPanel Orientation="Horizontal" Grid.Row="1">
+                                <TextBox x:Name="CommentBox"
+                                         Width="300"
+                                         Margin="0,0,8,0"
+                                         Text="{Binding NewCommentText, UpdateSourceTrigger=PropertyChanged}"/>
+                                <Button Content="{DynamicResource AddComment}"
+                                        Command="{Binding AddCommentCommand}"
+                                        Style="{StaticResource MaterialDesignRaisedButton}"/>
+                            </StackPanel>
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

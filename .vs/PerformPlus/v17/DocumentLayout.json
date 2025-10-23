@@ -1,0 +1,820 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\onur\\source\\repos\\PerformPlus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\services\\payrolldefaultsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\services\\payrolldefaultsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\viewmodels\\leaderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\viewmodels\\leaderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\services\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\services\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\services\\payrollcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\services\\payrollcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\services\\overtimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\services\\overtimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\viewmodels\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\viewmodels\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\viewmodels\\commentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\viewmodels\\commentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\services\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\services\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\taskassignmentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\taskassignmentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\userwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\userwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\payrollsettingsdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\payrollsettingsdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\payrolldialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\payrolldialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\overtimeentrydialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\overtimeentrydialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\leaderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\leaderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\employeedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\employeedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\converters\\nulltopendingconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\converters\\nulltopendingconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\viewmodels\\taskassignmentdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\viewmodels\\taskassignmentdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\viewmodels\\payrollsettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\viewmodels\\payrollsettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\models\\taskassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\models\\taskassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\models\\payrollmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\models\\payrollmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\models\\payrolldefaultsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\models\\payrolldefaultsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\models\\overtimeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\models\\overtimeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\resources\\localization\\strings.en-us.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\resources\\localization\\strings.en-us.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\onur\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\leaderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\leaderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\overtimeentrydialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\overtimeentrydialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\taskassignmentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\taskassignmentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\resources\\localization\\strings.tr-tr.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\resources\\localization\\strings.tr-tr.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\payrollsettingsdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\payrollsettingsdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\payrolldialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\payrolldialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\views\\employeedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\views\\employeedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|c:\\users\\onur\\source\\repos\\performplus\\performplus\\performplus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2BACF9F-398E-4689-83E8-B3ACDE692843}|PerformPlus\\PerformPlus.csproj|solutionrelative:performplus\\performplus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\onur\\.nuget\\packages\\materialdesignthemes\\5.2.1\\docs\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\App.xaml",
+              "RelativeDocumentMoniker": "PerformPlus\\App.xaml",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\App.xaml",
+              "RelativeToolTip": "PerformPlus\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T22:03:48.903Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PayrollDefaultsService.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\PayrollDefaultsService.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Services\\PayrollDefaultsService.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\PayrollDefaultsService.cs",
+              "RelativeToolTip": "PerformPlus\\Services\\PayrollDefaultsService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T09:56:18.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\AdminViewModel.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\ViewModels\\AdminViewModel.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\AdminViewModel.cs",
+              "RelativeToolTip": "PerformPlus\\ViewModels\\AdminViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:35:55.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PayrollCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\PayrollCalculator.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Services\\PayrollCalculator.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\PayrollCalculator.cs",
+              "RelativeToolTip": "PerformPlus\\Services\\PayrollCalculator.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwE0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:40:02.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OvertimeService.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\OvertimeService.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Services\\OvertimeService.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\OvertimeService.cs",
+              "RelativeToolTip": "PerformPlus\\Services\\OvertimeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:42:31.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeaderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\LeaderViewModel.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\ViewModels\\LeaderViewModel.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\LeaderViewModel.cs",
+              "RelativeToolTip": "PerformPlus\\ViewModels\\LeaderViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:46:30.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Services\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\DatabaseHelper.cs",
+              "RelativeToolTip": "PerformPlus\\Services\\DatabaseHelper.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T23:10:24.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PayrollService.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\PayrollService.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Services\\PayrollService.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\PayrollService.cs",
+              "RelativeToolTip": "PerformPlus\\Services\\PayrollService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:41:12.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\CommentViewModel.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\ViewModels\\CommentViewModel.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\CommentViewModel.cs",
+              "RelativeToolTip": "PerformPlus\\ViewModels\\CommentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T23:09:07.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\CommentService.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Services\\CommentService.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\CommentService.cs",
+              "RelativeToolTip": "PerformPlus\\Services\\CommentService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T22:33:02.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\App.xaml.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\App.xaml.cs",
+              "RelativeToolTip": "PerformPlus\\App.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:48:36.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskAssignmentDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\TaskAssignmentDialog.xaml.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\TaskAssignmentDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\TaskAssignmentDialog.xaml.cs",
+              "RelativeToolTip": "PerformPlus\\Views\\TaskAssignmentDialog.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:13:29.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\UserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\UserWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\UserWindow.xaml.cs",
+              "RelativeToolTip": "PerformPlus\\Views\\UserWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:19:29.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PayrollSettingsDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\PayrollSettingsDialog.xaml.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\PayrollSettingsDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\PayrollSettingsDialog.xaml.cs",
+              "RelativeToolTip": "PerformPlus\\Views\\PayrollSettingsDialog.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T10:00:47.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PayrollDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\PayrollDialog.xaml.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\PayrollDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\PayrollDialog.xaml.cs",
+              "RelativeToolTip": "PerformPlus\\Views\\PayrollDialog.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T10:25:37.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OvertimeEntryDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\OvertimeEntryDialog.xaml.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\OvertimeEntryDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\OvertimeEntryDialog.xaml.cs",
+              "RelativeToolTip": "PerformPlus\\Views\\OvertimeEntryDialog.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:16:37.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\Login.xaml.cs",
+              "RelativeToolTip": "PerformPlus\\Views\\Login.xaml.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAACkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T19:11:59.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LeaderWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\LeaderWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\LeaderWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\LeaderWindow.xaml.cs",
+              "RelativeToolTip": "PerformPlus\\Views\\LeaderWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:19:43.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmployeeDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\EmployeeDialog.xaml.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\EmployeeDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\EmployeeDialog.xaml.cs",
+              "RelativeToolTip": "PerformPlus\\Views\\EmployeeDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T10:40:36.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "PerformPlus\\Views\\AdminWindow.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:47:38.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NullToPendingConverter.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\Converters\\NullToPendingConverter.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\Converters\\NullToPendingConverter.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\Converters\\NullToPendingConverter.cs",
+              "RelativeToolTip": "PerformPlus\\Views\\Converters\\NullToPendingConverter.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T14:19:19.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\ViewModels\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\UserViewModel.cs",
+              "RelativeToolTip": "PerformPlus\\ViewModels\\UserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T01:50:00.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TaskAssignmentDialogViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\TaskAssignmentDialogViewModel.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\ViewModels\\TaskAssignmentDialogViewModel.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\TaskAssignmentDialogViewModel.cs",
+              "RelativeToolTip": "PerformPlus\\ViewModels\\TaskAssignmentDialogViewModel.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAGsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T23:02:03.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\ViewModels\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "PerformPlus\\ViewModels\\RelayCommand.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:34:56.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PayrollSettingsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\PayrollSettingsViewModel.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\ViewModels\\PayrollSettingsViewModel.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\ViewModels\\PayrollSettingsViewModel.cs",
+              "RelativeToolTip": "PerformPlus\\ViewModels\\PayrollSettingsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T09:57:04.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\UserService.cs",
+              "RelativeToolTip": "PerformPlus\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T01:45:24.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Services\\TaskService.cs",
+              "RelativeToolTip": "PerformPlus\\Services\\TaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:45:20.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TaskAssignment.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\TaskAssignment.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Models\\TaskAssignment.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\TaskAssignment.cs",
+              "RelativeToolTip": "PerformPlus\\Models\\TaskAssignment.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:37:56.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\Task.cs",
+              "RelativeToolTip": "PerformPlus\\Models\\Task.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:36:51.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PayrollModel.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\PayrollModel.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Models\\PayrollModel.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\PayrollModel.cs",
+              "RelativeToolTip": "PerformPlus\\Models\\PayrollModel.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:12:19.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PayrollDefaultsModel.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\PayrollDefaultsModel.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Models\\PayrollDefaultsModel.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\PayrollDefaultsModel.cs",
+              "RelativeToolTip": "PerformPlus\\Models\\PayrollDefaultsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T09:55:42.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OvertimeEntry.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\OvertimeEntry.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Models\\OvertimeEntry.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\OvertimeEntry.cs",
+              "RelativeToolTip": "PerformPlus\\Models\\OvertimeEntry.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:51:45.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Models\\EmployeeModel.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\EmployeeModel.cs",
+              "RelativeToolTip": "PerformPlus\\Models\\EmployeeModel.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:12:07.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Models\\Comment.cs",
+              "RelativeToolTip": "PerformPlus\\Models\\Comment.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T22:32:31.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Strings.en-US.xaml",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Resources\\Localization\\Strings.en-US.xaml",
+              "RelativeDocumentMoniker": "PerformPlus\\Resources\\Localization\\Strings.en-US.xaml",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Resources\\Localization\\Strings.en-US.xaml",
+              "RelativeToolTip": "PerformPlus\\Resources\\Localization\\Strings.en-US.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-07T13:27:19.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\AdminWindow.xaml",
+              "RelativeToolTip": "PerformPlus\\Views\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T10:26:16.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\onur\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T08:50:12.882Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\Login.xaml",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\Login.xaml",
+              "RelativeToolTip": "PerformPlus\\Views\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-07T17:04:32.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "PerformPlus\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\AssemblyInfo.cs",
+              "RelativeToolTip": "PerformPlus\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:21:29.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LeaderWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\LeaderWindow.xaml",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\LeaderWindow.xaml",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\LeaderWindow.xaml",
+              "RelativeToolTip": "PerformPlus\\Views\\LeaderWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T22:44:58.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "OvertimeEntryDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\OvertimeEntryDialog.xaml",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\OvertimeEntryDialog.xaml",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\OvertimeEntryDialog.xaml",
+              "RelativeToolTip": "PerformPlus\\Views\\OvertimeEntryDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T12:14:39.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TaskAssignmentDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\TaskAssignmentDialog.xaml",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\TaskAssignmentDialog.xaml",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\TaskAssignmentDialog.xaml",
+              "RelativeToolTip": "PerformPlus\\Views\\TaskAssignmentDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T13:12:33.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\UserWindow.xaml",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\UserWindow.xaml",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\UserWindow.xaml",
+              "RelativeToolTip": "PerformPlus\\Views\\UserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T22:50:25.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Strings.tr-TR.xaml",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Resources\\Localization\\Strings.tr-TR.xaml",
+              "RelativeDocumentMoniker": "PerformPlus\\Resources\\Localization\\Strings.tr-TR.xaml",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Resources\\Localization\\Strings.tr-TR.xaml",
+              "RelativeToolTip": "PerformPlus\\Resources\\Localization\\Strings.tr-TR.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-07T13:27:36.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PayrollSettingsDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\PayrollSettingsDialog.xaml",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\PayrollSettingsDialog.xaml",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\PayrollSettingsDialog.xaml",
+              "RelativeToolTip": "PerformPlus\\Views\\PayrollSettingsDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T09:58:02.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PayrollDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\PayrollDialog.xaml",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\PayrollDialog.xaml",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\PayrollDialog.xaml",
+              "RelativeToolTip": "PerformPlus\\Views\\PayrollDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T10:24:13.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "EmployeeDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\EmployeeDialog.xaml",
+              "RelativeDocumentMoniker": "PerformPlus\\Views\\EmployeeDialog.xaml",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\Views\\EmployeeDialog.xaml",
+              "RelativeToolTip": "PerformPlus\\Views\\EmployeeDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T10:27:48.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PerformPlus.csproj",
+              "DocumentMoniker": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\PerformPlus.csproj",
+              "RelativeDocumentMoniker": "PerformPlus\\PerformPlus.csproj",
+              "ToolTip": "C:\\Users\\onur\\source\\repos\\PerformPlus\\PerformPlus\\PerformPlus.csproj",
+              "RelativeToolTip": "PerformPlus\\PerformPlus.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-24T21:49:35.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\onur\\.nuget\\packages\\materialdesignthemes\\5.2.1\\docs\\README.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\materialdesignthemes\\5.2.1\\docs\\README.md",
+              "ToolTip": "C:\\Users\\onur\\.nuget\\packages\\materialdesignthemes\\5.2.1\\docs\\README.md [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\materialdesignthemes\\5.2.1\\docs\\README.md [Read Only]",
+              "ViewState": "AgIAAH8AAAAAAAAAAIBJwMEAAAAvAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-01T18:04:19.364Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

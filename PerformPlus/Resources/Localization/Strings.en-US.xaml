@@ -1,0 +1,138 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Login Window -->
+    <sys:String x:Key="LoginTitle">PerformPlus Login</sys:String>
+    <sys:String x:Key="UsernameHint">Username</sys:String>
+    <sys:String x:Key="PasswordHint">Password</sys:String>
+    <sys:String x:Key="ShowPassword">Show Password</sys:String>
+    <sys:String x:Key="LoginButton">Login</sys:String>
+
+    <!-- Footer -->
+    <sys:String x:Key="FooterText">© 2025 PerformPlus</sys:String>
+
+    <!-- Messages -->
+    <sys:String x:Key="EmptyFields">Please enter both username and password.</sys:String>
+    <sys:String x:Key="LoginSuccessTitle">Login Successful</sys:String>
+    <sys:String x:Key="LoginWelcome">Welcome, {0}!</sys:String>
+    <sys:String x:Key="LoginFailed">Invalid username or password.</sys:String>
+    <sys:String x:Key="LoginError">An error occurred during login: {0}</sys:String>
+    <sys:String x:Key="InputErrorTitle">Input Error</sys:String>
+    <sys:String x:Key="LoginFailedTitle">Login Failed</sys:String>
+    <sys:String x:Key="GeneralErrorTitle">Error</sys:String>
+
+    <!-- Admin Window Text -->
+    <sys:String x:Key="AdminShellTitle">Admin Dashboard</sys:String>
+    <sys:String x:Key="Logout">Logout</sys:String>
+    <!-- Tab Headers -->
+    <sys:String x:Key="UserManagementTabHeader">User Management</sys:String>
+    <sys:String x:Key="PayrollManagementTabHeader">Payroll Management</sys:String>
+    <!-- Buttons for Employee Management -->
+    <sys:String x:Key="AddEmployee">Add Employee</sys:String>
+    <sys:String x:Key="EditEmployee">Edit Employee</sys:String>
+    <sys:String x:Key="DeleteEmployee">Delete Employee</sys:String>
+    <!-- Buttons for Payroll Management -->
+    <sys:String x:Key="AddPayroll">Add Payroll</sys:String>
+    <sys:String x:Key="EditPayroll">Edit Payroll</sys:String>
+    <sys:String x:Key="DeletePayroll">Delete Payroll</sys:String>
+    <!-- Payroll Tab -->
+
+    <sys:String x:Key="PayrollPeriodHint">Payroll Period</sys:String>
+    <sys:String x:Key="GeneratePayrollButton">Generate Payroll</sys:String>
+
+    <!-- Add employee window -->
+    <sys:String x:Key="FullNameHint">Full Name</sys:String>
+    <sys:String x:Key="RoleHint">Role</sys:String>
+    <sys:String x:Key="TeamIDHint">Team ID</sys:String>
+    <sys:String x:Key="EmailHint">Email</sys:String>
+    <sys:String x:Key="SaveButton">Save</sys:String>
+    <sys:String x:Key="CancelButton">Cancel</sys:String>
+    <sys:String x:Key="AdminText">Admin</sys:String>
+    <sys:String x:Key="LeaderText">Leader</sys:String>
+    <sys:String x:Key="UserText">User</sys:String>
+    <sys:String x:Key="ConfirmDeleteMessage">Are you sure you want to delete {0}?</sys:String>
+    <sys:String x:Key="ConfirmDeleteTitle">Confirm Delete</sys:String>
+    <sys:String x:Key="ValidationErrorMessage">Please fix validation errors before saving.</sys:String>
+    <sys:String x:Key="ValidationErrorTitle">Validation Error</sys:String>
+    <sys:String x:Key="InvalidEmailMessage">Please enter a valid email address.</sys:String>
+    <sys:String x:Key="InvalidPasswordMessage">The password must contain at least one uppercase letter and one digit.</sys:String>
+    <sys:String x:Key="MaritalStatusHint">Marital Status</sys:String>
+    <sys:String x:Key="MarriedText">Married</sys:String>
+    <sys:String x:Key="SingleText">Single</sys:String>
+    <sys:String x:Key="ChildrenHint">Number of Children</sys:String>
+    <sys:String x:Key="BaseSalaryHint">Base Salary</sys:String>
+
+    <!-- Payroll Defaults Dialog -->
+    <sys:String x:Key="PayrollSettingsTitle">Payroll Defaults</sys:String>
+    <sys:String x:Key="MealAllowanceHint">Meal Allowance</sys:String>
+    <sys:String x:Key="TravelAllowanceHint">Travel Allowance</sys:String>
+    <sys:String x:Key="DefaultBonusHint">Default Bonus</sys:String>
+    <sys:String x:Key="OvertimeRateHint">Overtime Rate (/hour)</sys:String>
+    <sys:String x:Key="PayrollSettingsButton">Settings</sys:String>
+
+    <sys:String x:Key="ConfirmDeletePayrollMessage">Delete payroll for employee {0}?</sys:String>
+    <sys:String x:Key="PayrollGeneratedMessage">Payrolls for {0} generated.</sys:String>
+    <sys:String x:Key="SuccessTitle">Success</sys:String>
+    <sys:String x:Key="PayrollErrorMessage">Error generating payroll: {0}</sys:String>
+    <sys:String x:Key="ErrorTitle">Error</sys:String>
+
+
+    <sys:String x:Key="RecalculatePayroll">Recalculate Payroll</sys:String>
+
+
+    <sys:String x:Key="PayrollRecalculatedMessage">Payrolls for {0} have been recalculated successfully.</sys:String>
+
+
+    <!-- OvertimeEntryDialog -->
+    <sys:String x:Key="AddOvertimeTitle">Add Overtime Entry</sys:String>
+    <sys:String x:Key="OvertimeEntryHeader">Record Overtime</sys:String>
+    <sys:String x:Key="EmployeeHint">Select Employee</sys:String>
+    <sys:String x:Key="OvertimeDateHint">Overtime Date</sys:String>
+    <sys:String x:Key="OvertimeHoursHint">Hours Worked</sys:String>
+
+    <!-- TaskAssignmentDialog -->
+    <sys:String x:Key="AssignTaskTitle">Assign New Task</sys:String>
+    <sys:String x:Key="TaskAssignmentHeader">Task Details</sys:String>
+    <sys:String x:Key="TaskTitleHint">Task Title</sys:String>
+    <sys:String x:Key="TaskDescriptionHint">Description</sys:String>
+    <sys:String x:Key="DueDateHint">Due Date</sys:String>
+
+    <!-- LeaderWindow -->
+    <sys:String x:Key="LeaderTitle">Leader Dashboard</sys:String>
+    <sys:String x:Key="LeaderShellTitle">Team Leader Panel</sys:String>
+    <sys:String x:Key="OvertimeTabHeader">Overtime</sys:String>
+    <sys:String x:Key="TasksTabHeader">Tasks</sys:String>
+    <sys:String x:Key="AddOvertime">Add Overtime</sys:String>
+    <sys:String x:Key="ApproveOvertime">Approve Overtime</sys:String>
+    <sys:String x:Key="AssignTask">Assign Task</sys:String>
+    <sys:String x:Key="EditTask">Edit Task</sys:String>
+    <sys:String x:Key="ApproveTask">Approve Task</sys:String>
+
+    <!-- DataGrid Columns -->
+    <sys:String x:Key="EmployeeColumn">Employee</sys:String>
+    <sys:String x:Key="DateColumn">Date</sys:String>
+    <sys:String x:Key="HoursColumn">Hours</sys:String>
+    <sys:String x:Key="StatusColumn">Status</sys:String>
+    <sys:String x:Key="TitleColumn">Title</sys:String>
+    <sys:String x:Key="AssignedToColumn">Assigned To</sys:String>
+    <sys:String x:Key="DueDateColumn">Due Date</sys:String>
+
+    <!-- Window Titles -->
+    <sys:String x:Key="UserTasksTitle">My Tasks</sys:String>
+    <sys:String x:Key="UserShellTitle">Task Dashboard</sys:String>
+
+
+    <sys:String x:Key="SelectUsersLabel">Assign to users:</sys:String>
+
+    <!-- Comments Section -->
+    <sys:String x:Key="CommentsHeader">Comments</sys:String>
+    <sys:String x:Key="AddCommentHint">Write a comment…</sys:String>
+    <sys:String x:Key="AddComment">Add Comment</sys:String>
+    <sys:String x:Key="CompleteTask">Mark Complete</sys:String>
+
+    
+    <sys:String x:Key="TitleHint">Title</sys:String>
+    <sys:String x:Key="DescriptionHint">Description</sys:String>
+    
+</ResourceDictionary>
