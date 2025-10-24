@@ -23,14 +23,16 @@ The system uses a relational SQL Server database that connects directly through 
 - `Payrolls` → Contains payroll records, taxes, and overtime  
 - `PayrollDefaults` → Stores default allowance and bonus values
 
-## Author  
-**Onur Başkan**  
-[onurbaskan419@gmail.com](mailto:onurbaskan419@gmail.com)  
-[GitHub Profile](https://github.com/BBaskan)
 
 ## Tech Stack  
 - **Language:** C# (.NET 6)  
 - **Framework:** WPF (MVVM pattern)  
 - **Database:** MSSQL  
 - **Validation:** IDataErrorInfo  
-- **UI Design:** MaterialDesignThemes 5.2.1  
+- **UI Design:** MaterialDesignThemes 5.2.1
+
+## Author  
+**Onur Başkan**  
+[onurbaskan419@gmail.com](mailto:onurbaskan419@gmail.com)  
+[GitHub Profile](https://github.com/BBaskan)
+
