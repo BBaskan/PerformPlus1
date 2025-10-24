@@ -21,7 +21,12 @@ The system uses a relational SQL Server database that connects directly through 
 **Main Tables Include:**  
 - `Employees` → Stores personal and salary data  
 - `Payrolls` → Contains payroll records, taxes, and overtime  
-- `PayrollDefaults` → Stores default allowance and bonus values  
+- `PayrollDefaults` → Stores default allowance and bonus values
+
+## Author  
+**Onur Başkan**  
+[onurbaskan419@gmail.com](mailto:onurbaskan419@gmail.com)  
+[GitHub Profile](https://github.com/BBaskan)
 
 ## Tech Stack  
 - **Language:** C# (.NET 6)  
